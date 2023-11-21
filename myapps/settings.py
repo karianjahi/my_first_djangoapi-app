@@ -31,7 +31,7 @@ if env("DEBUG").lower() == "true":
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['ec2-3-121-228-98.eu-central-1.compute.amazonaws.com', 'ec2-18-196-84-75.eu-central-1.compute.amazonaws.com','3.121.228.98']
+ALLOWED_HOSTS = ['ec2-3-121-228-98.eu-central-1.compute.amazonaws.com', '18.196.84.75','3.121.228.98']
 # ALLOWED_HOSTS = ['*']
 
 # Application definition
