@@ -28,7 +28,7 @@ SECRET_KEY = env("SECRET_KEY")
 if env("DEBUG").lower() == "true":
     DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['ec2-3-121-228-98.eu-central-1.compute.amazonaws.com']
 
 # Application definition
 
