@@ -24,9 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env("SECRET_KEY")
+print(SECRET_KEY)
 # SECURITY WARNING: don't run with debug turned on in production!
 if env("DEBUG").lower() == "true":
     DEBUG = True
+else:
+    DEBUG = False
 
 ALLOWED_HOSTS = ['ec2-3-121-228-98.eu-central-1.compute.amazonaws.com']
 
